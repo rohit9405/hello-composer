@@ -1,0 +1,17 @@
+{
+    "name": "rohit9405/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rohit Mandaliya",
+            "email": "rohit@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"rohit9405\\hello-composer\\": "src/"}
+    },
+    "require": {}
+}
